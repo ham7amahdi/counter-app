@@ -26,8 +26,11 @@ function UserForm() {
     <div style={{ textAlign: 'center', marginTop: '40px' }}>
       <h1>Add User</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form 
+      class=" ml-16 " 
+       onSubmit={handleSubmit}>
         <input
+          class=" bg-black "
           type="text"
           placeholder="Name"
           value={name}
@@ -35,13 +38,15 @@ function UserForm() {
           style={{ padding: '8px', margin: '5px' }}
         />
         <input
+                  class=" bg-black "
+
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           style={{ padding: '8px', margin: '5px' }}
         />
-        <button type="submit" style={{ padding: '8px 16px', margin: '5px' }}>
+        <button class="bg-" type="submit" style={{ padding: '8px 16px', margin: '5px' }}>
           Add
         </button>
       </form>

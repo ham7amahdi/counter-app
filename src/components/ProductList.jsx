@@ -9,7 +9,7 @@ function ProductList(){
   ];
   return(
     <div style={{textAlign:'center', marginTop:'40px'}}>
-      <h1 class="ml-16"  >Product list</h1>
+      <h1 class=""  >Product list</h1>
       {products.length > 0 ? (
       products.map((product) => (
         <div key={product.id} style={{marginBottom: '20px'}}>

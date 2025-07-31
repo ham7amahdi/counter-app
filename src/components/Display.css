@@ -1,0 +1,59 @@
+/* Container for the whole component */
+.user-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f2f7ff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+/* List styling */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each user card */
+.user-card {
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.user-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.user-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.user-card span {
+  font-weight: bold;
+  color: #000;
+}
